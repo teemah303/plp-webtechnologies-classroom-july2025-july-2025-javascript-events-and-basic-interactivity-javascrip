@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive JS Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+  <!-- Part 2: Light/Dark Mode Toggle -->
+  <section>
+    <h2>Theme Toggle</h2>
+    <button id="themeToggle">Switch to Dark Mode</button>
+  </section>
+
+  <!-- Part 2: Counter Game -->
+  <section>
+    <h2>Counter Game</h2>
+    <p>Score: <span id="counterValue">0</span></p>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <!-- Part 2: Collapsible FAQ -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq">
+      <button class="faq-question">What is JavaScript?</button>
+      <div class="faq-answer">JavaScript is a programming language for the web.</div>
+    </div>
+    <div class="faq">
+      <button class="faq-question">What is DOM?</button>
+      <div class="faq-answer">DOM stands for Document Object Model, which represents HTML elements as objects.</div>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>
+        Name: <input type="text" id="name" />
+        <small class="error" id="nameError"></small>
+      </label><br>
+      
+      <label>
+        Email: <input type="text" id="email" />
+        <small class="error" id="emailError"></small>
+      </label><br>
+      
+      <label>
+        Password: <input type="password" id="password" />
+        <small class="error" id="passwordError"></small>
+      </label><br>
+      
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
